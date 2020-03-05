@@ -1,0 +1,16 @@
+<!--As classes sobrepõem os elementos de body... também note que, em caso de multiplas classes, a declarada por ultimo se sobrepoe a primeira... neste caso a letra sera azul-->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text{
+    color: blue;
+  }
+</style>
+<h1 class="blue-text pink-text">Hello World!</h1>

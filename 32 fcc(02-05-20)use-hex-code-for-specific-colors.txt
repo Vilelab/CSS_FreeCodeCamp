@@ -1,0 +1,7 @@
+<!--Em CSS podemos usar 6 digitos hexadecimais para representar as cores... #000000representa o preto por exemplo -->
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

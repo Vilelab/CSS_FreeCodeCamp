@@ -1,0 +1,14 @@
+<!-- IE for example doesnt support CSS variables... cause of that an easy way of providing a fallback is setting a more widely supported vallue immediately before our declaration -->
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

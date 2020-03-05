@@ -1,0 +1,8 @@
+<!-- vamos falar sobre herança... veja que toda pg. html tem um elemento body... veja como, mesmo sem declararmos ele explicitamente, podemos designar-lhe uma cor... -->
+
+<style>
+body{
+    background-color: black;
+}
+
+</style>

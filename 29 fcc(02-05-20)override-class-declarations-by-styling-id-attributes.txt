@@ -1,0 +1,18 @@
+<!--Ainda falando em precedência:  o atributo id sobrepoe as classes e o corpo da página-->
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text{
+    color: orange;
+  }
+</style>
+<h1 id="orange-text" class="blue-text pink-text">Hello World!</h1>
